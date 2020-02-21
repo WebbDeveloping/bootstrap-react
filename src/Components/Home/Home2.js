@@ -1,12 +1,12 @@
 import React from 'react'
-import CardRow from './Card/CardRow'
-import  CardColumn  from './Card/CardColumn';
+import LeftSection from '../Sections/LeftSection';
+import RightSection from '../Sections/RightSection';
 
 export default function Home() {
     return (
         <div className='row'>
-            <CardColumn />
-            <CardRow />
+            <LeftSection />
+            <RightSection />
         </div>
     )
 }
