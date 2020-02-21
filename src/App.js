@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <NavigationBar />
-      <Jum />
+      {/* <Jum /> */}
       <Layout>
       <BrowserRouter>
       <Switch>

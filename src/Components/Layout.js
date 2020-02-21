@@ -3,7 +3,7 @@ import {Container} from 'react-bootstrap';
 
 export default function Layout(props) {
     return (
-        <Container>
+        <Container className='py-2 mb-4'>
             {props.children}
         </Container>
     )
